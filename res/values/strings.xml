@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Simply Weather</string>
+    <string name="search_hint">Enter city</string>
+    <string name="check">počinjem</string>
+    
+    <string-array name="city">
+        <item>Osijek</item>
+        <item>Josipovac</item>
+        <item>Valpovo</item>
+        <item>Belišće</item>
+        <item>London</item>
+        <item>New York</item>
+        <item>Capetown</item>
+        <item>Reykyavik</item>
+        <item>Niš</item>
+        <item>Čakovec</item>
+    </string-array>
+        <string name="notFound">City not found :/</string>  
+        
+</resources>

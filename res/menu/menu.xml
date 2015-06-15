@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:iconifiedByDefault="true"
+        android:showAsAction="always"
+        android:title="Search">
+    </item>
+    <item
+        android:id="@+id/menu_addCity"
+        android:icon="@android:drawable/ic_input_add"
+        android:showAsAction="ifRoom"
+        android:title="Add City"/>
+    <item
+        android:id="@+id/menu_deleteCity"
+        android:icon="@android:drawable/ic_delete"
+        android:showAsAction="ifRoom"
+        android:title="Delete City"/>
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:showAsAction="ifRoom"
+        android:title="Save List"/>
+    <item
+        android:id="@+id/menu_preferences"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="never"
+        android:title="Preferences"/>
+
+</menu>
